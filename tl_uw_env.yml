@@ -1,0 +1,15 @@
+name: tl_uw_env
+dependencies:
+- python
+- numpy
+- pandas
+- geopandas
+- matplotlib
+- scikit-learn
+- flake8
+- ipykernel
+- jupyter
+- pip
+- pip:
+  - 'python-language-server[all]'
+  - geojsonio
